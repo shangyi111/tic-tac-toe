@@ -1,1 +1,20 @@
-<p>login works!</p>
+<div class="d-flex justify-content-center">
+	<form class="d-flex flex-column">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+   
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <button type="button" class="btn btn-primary" [routerLink]="['/board']">Submit</button>
+  <router-outlet></router-outlet>
+  <small id="testWarning" class="form-text text-muted">* Testing - click submit to play.</small>
+</form>
+
+
+</div>

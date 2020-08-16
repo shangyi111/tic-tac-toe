@@ -1,8 +1,15 @@
+
 <div>
   <h1 class="text-center p-4">
     Welcome to Tic-Tac-Toe
   </h1>
-  <div class="main-app">
-    <app-board></app-board>
-  </div>
+ 
 </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active"><a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a></li>
+    <li ><a class="nav-link" routerLink="/board" routerLinkActive="active">Play</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
