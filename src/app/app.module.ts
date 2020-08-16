@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CellComponent } from './cell/cell.component';
 import { BoardComponent } from './board/board.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CellComponent,
-    BoardComponent
+    BoardComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
